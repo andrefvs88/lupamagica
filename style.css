@@ -1,0 +1,148 @@
+body {
+  color: white;
+  background-image: url(imagens/background2.avif);
+  background-size: cover;
+  text-align: center;
+  margin: 0px 0px 0px 80px;
+  font-family: Arial;
+}
+
+h1 {
+  color: #266db6;
+  text-shadow: 2px 2px 3px #00132c;
+  font-size: 100px;
+  font-family: "Signika Negative", sans-serif;
+  opacity: 0.8;
+  padding-top: 35px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Avenir Next LT W01 Bold", sans-serif;
+  margin: 0px;
+  opacity: 0.8;
+  color: #000033;
+}
+.primeiro-paragrafo {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.segundo-paragrafo {
+  margin-bottom: 430px;
+}
+.frase {
+  color: #1f3be8;
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: 1px 1px 2px white;
+  filter: blur(2px);
+}
+.frase:hover {
+  filter: blur(0);
+}
+
+ul {
+  list-style: none;
+  margin-right: 40px;
+  margin-top: 90px;
+}
+ul p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+li {
+  display: inline;
+}
+
+ul li a {
+  color: #1f3be8;
+  text-decoration: none;
+  padding: 4px;
+}
+
+.button-51 {
+  size: 80px;
+  background-color: transparent;
+  border: 1px solid #266db6;
+  box-sizing: border-box;
+  color: #00132c;
+  font-family: "Avenir Next LT W01 Bold", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: #d5edf6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  background-color: #6dcff6;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url(imagens/background.avif);
+    background-size: cover;
+    margin: 0px 80px 0px 80px;
+  }
+  h1 {
+    font-size: 50px;
+    font-family: "Signika Negative", sans-serif;
+    padding-top: 35px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+    opacity: 0.8;
+    color: #000033;
+  }
+  .frase {
+    color: #6dcff6;
+    filter: blur(0);
+    text-shadow: 0px 0px 1px rgb(66, 63, 63);
+  }
+  .segundo-paragrafo {
+    margin-bottom: 60px;
+  }
+  ul {
+    list-style: none;
+    margin-top: 380px;
+    margin-right: 40px;
+  }
+  .button-51 {
+    padding: 16px 32px;
+  }
+}
