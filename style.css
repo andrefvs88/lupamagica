@@ -164,7 +164,7 @@ h1 {
   }
   h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     margin-right: auto;
     font-family: "Signika Negative", sans-serif;
     padding-top: 35px;
@@ -183,6 +183,7 @@ h1 {
   }
   .frase {
     color: #6dcff6;
+    font-size: 22px;
     filter: blur(0);
     text-shadow: 0px 0px 1px rgb(66, 63, 63);
   }
