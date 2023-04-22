@@ -163,9 +163,9 @@ h1 {
     background-size: cover;
   }
   h1 {
-    text-align: Center;
+    text-align: center;
     font-size: 60px;
-    margin-right: 65px;
+    margin-right: auto;
     font-family: "Signika Negative", sans-serif;
     padding-top: 35px;
     letter-spacing: 1px;
@@ -177,7 +177,7 @@ h1 {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    margin: 0px;
+    margin-right: 20px;
     opacity: 0.8;
     color: #000033;
   }
