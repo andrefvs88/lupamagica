@@ -161,10 +161,9 @@ h1 {
   body {
     background-image: url(imagens/background.avif);
     background-size: cover;
-    margin: 0px 40px 0px 80px;
   }
   h1 {
-    text-align: Left;
+    text-align: Center;
     font-size: 60px;
     font-family: "Signika Negative", sans-serif;
     padding-top: 35px;
