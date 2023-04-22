@@ -163,15 +163,14 @@ h1 {
     background-size: cover;
   }
   h1 {
-    text-align: center;
+    text-align: Center;
     font-size: 50px;
-    margin-right: auto;
     font-family: "Signika Negative", sans-serif;
     padding-top: 35px;
     letter-spacing: 1px;
     font-weight: bold;
     margin-bottom: 3px;
-    width: 405px;
+    width: auto;
   }
   p {
     text-align: center;
